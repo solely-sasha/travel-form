@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Form</title>
 
-    <form>
-        
+    <form name="travelForm">
+      <label for="firstName">First Name: </label>
+      <input type="text" name="firstName" />
+
+      <label for="lastName">Last Name: </label>
+      <input type="text" name="lastName" />
+
+      <label for="age">Age: </label>
+      <input type="number" name="age" />
+
+      <label for="gender">Gender: </label>
+      <label for="Male"> Male </label>
+      <input type="radio" name="gender" value="Male" />
+
+      <label for="Female"> Female </label>
+      <input type="radio" name="gender" value="Female" />
+
+      <label for="location">Location: </label>
+      <select name="location">
+        <option value="California">California</option>
+        <option value="Egypt">Egypt</option>
+        <option value="London">London</option>
+      </select>
+
+      <label for="diet"> Dietary Restriction: </label>
+      <label for="I want it all">I want it all</label>
+      <input type="checkbox" name="diet" value="I want it all" />
+
+      <label for="Vegan">Vegan</label>
+      <input type="checkbox" name="diet" value="Vegan" />
+
+      <label for="gluten free">gluten free</label>
+      <input type="checkbox" name="diet" value="gluten free" />
+      <button type="submit">Submit</button>
     </form>
-</head>
-<body>
-    
-</body>
+  </head>
+  <script src="main.js"></script>
+  <body></body>
 </html>

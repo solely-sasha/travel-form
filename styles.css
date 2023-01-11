@@ -1,0 +1,38 @@
+*{
+
+    box-sizing: border-box;
+}
+
+
+
+form{
+    max-width: 600px;
+    padding: 20px;
+    display:grid;
+    grid-gap: 16px;
+    grid-template-columns: 200px 1fr;
+    border: 5px solid lightseagreen;
+    background-color: rgb(210, 232, 224);
+   margin: 100px auto;
+    
+}
+
+form input{
+    margin-bottom: 1rem;
+    
+
+}
+form input:hover{
+    border: 3px solid lightseagreen;
+}
+label{
+    grid-column: 1/2;
+}
+
+input, button{
+    grid-column: 2/3;
+}
+
+button:hover{
+    border: 3px solid lightseagreen;
+}

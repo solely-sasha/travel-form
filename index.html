@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
     <title>Travel Form</title>
 
     <form name="travelForm">
@@ -15,21 +16,25 @@
 
       <label for="age">Age: </label>
       <input type="number" name="age" />
-
-      <label for="gender">Gender: </label>
+<fieldset>
+    <legend>Gender: </legend>
+      <label for="gender"></label>
+      
       <label for="Male"> Male </label>
       <input type="radio" name="gender" value="Male" />
 
       <label for="Female"> Female </label>
       <input type="radio" name="gender" value="Female" />
-
-      <label for="location">Location: </label>
+</fieldset>
+<fieldset>
+    <legend>Location: </legend>
+      <label for="location"></label>
       <select name="location">
         <option value="California">California</option>
         <option value="Egypt">Egypt</option>
         <option value="London">London</option>
       </select>
-
+</fieldset>
       <label for="diet"> Dietary Restriction: </label>
       <label for="I want it all">I want it all</label>
       <input type="checkbox" name="diet" value="I want it all" />
